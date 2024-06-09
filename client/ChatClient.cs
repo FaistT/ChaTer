@@ -10,7 +10,7 @@ class ChatClient
 
     static void Main(string[] args)
     {
-        client = new TcpClient("127.0.0.1", 5000);
+        client = new TcpClient("192.168.1.3", 5000);
         stream = client.GetStream();
         Console.WriteLine("Connected to the server.");
 
